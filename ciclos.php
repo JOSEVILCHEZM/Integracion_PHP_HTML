@@ -1,3 +1,10 @@
+<?php
+
+$usuarios = ["Jose Vilchez", "RogerVilchez", "JoseMasquez"];
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head> 
@@ -18,7 +25,7 @@
 
         
 
-        <?php while(true): ?>
+        <?php while(false): ?>
 
             <li>Cualquier cosa </li>
             
@@ -26,6 +33,13 @@
 
     </ul>
 
+    <h1>Lista de Usuarios</h1>
+
+    </ul_>
+          <?php foreach ($usuarios as $username): ?>
+          
+          <li><?=$username ?></li>
+          <?php endforeach; ?>
    
 
 </body>
